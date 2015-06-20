@@ -357,7 +357,7 @@ var resizePizzas = function resizePizzas(size) {
   function determineDx(elem, size) {
     var oldwidth = elem.offsetWidth,
       windowwidth = document.getElementById('randomPizzas').offsetWidth,
-      oldsize /= windowwidth;
+      oldsize = oldsize / windowwidth;
     function sizeSwitcher(size) {
       switch (size) {
         case "1":
